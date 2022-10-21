@@ -1,0 +1,361 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .navbar { background-color: black; }
+  
+  li.nav-link {
+    text-decoration: none;
+    color:#e0e0e0;
+  text-decoration-color: white;}
+  
+  
+  .nav-link:hover{color: #f990a1;}
+  
+  .navbar.container.nav li a {
+    text-decoration: none;
+    text-decoration-color: white;
+    color: #e3e3e3;
+  }
+  
+  .bg-image{
+    background-image:url("images/aespa2.jpg");
+    height: 800px;
+    width:100%;
+    background-size:contain;
+    position: relative;
+  }
+ 
+  .bgimg{
+    width: 95%;
+    height: 40%;
+  }
+  
+  
+  .title {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #intro-example{
+   background-color: black;
+  }
+  
+  .bottom-right{
+     position: absolute;
+     right:5%;
+     bottom:8%;
+     font-size: 50px;
+  }
+  .bottom-right1{
+     position: absolute;
+     right:2%;
+     bottom:10%;
+    padding: 4px;
+  }
+  h1{
+    font-family: Georgia, serif;
+  }
+
+  .black{
+   background-color: black; 
+  }
+  .footer-heading{
+    height: 200px;
+    width: 200px;
+  }
+  
+  .card {
+    background-color: white;
+    border:1px solid gray;
+    border-radius: 5px;
+    box-shadow:0 4px 8px black;
+    max-width:300px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .card1 {
+    background-color: white;
+    border:1px solid gray;
+    border-radius: 5px;
+    box-shadow:0 4px 8px black;
+    
+    max-width:300px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .card-header{
+    font-size:20px;
+    margin-bottom:8px;
+  }
+  .card-body{
+    font-size:14px;
+  }
+  .card-header.card-image{
+    overflow: hidden;
+  }
+  img{
+    width: 100%;
+  }
+  .card-footer{
+    padding-bottom: 6px;
+  }
+  .card-footer > a{
+    color: black;
+  }
+  .card1:hover{
+    box-shadow:0 8px 4px black;
+    
+  }
+  .card1:hover > .card-header.card-image > img{
+    transform: scale(1.025);
+  }
+  .card-header.card-image > img{
+    display: block;
+    width: 100%;
+    transition: 200ms transform ease-in-out;
+  }
+  .blue{
+    background-color: black;
+  }
+  .buy{
+    width: 100%;
+    height: 35px;
+  }
+  .buy:hover{
+    background-color: #424242;
+  }
+  .submit{
+    height:50px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+  }
+  .submit:hover{
+    background-color: #dbdbdb ;
+  }
+  .flex{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap ;
+  }
+  .messagecontainer{
+     background-color: #ebebeb ;
+     height:100%;
+     width: 70%;
+     margin: 0 auto;
+    overflow: hidden;
+  }
+  .flex2{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+     flex-wrap: wrap ;
+  }
+  .inputbutton{
+  display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .flex3{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between ;
+     flex-wrap: wrap ;
+  }
+  .flex4{
+    display: flex;
+    flex-direction:row;
+    justify-content:  flex-start ;
+    align-items: center;
+     flex-wrap: wrap ;
+    padding-left: 10px;
+  }
+  .flex5{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap ;
+  }
+  .flex6{
+    display: flex;
+    flex-direction:row;
+    justify-content: end ;
+    align-items: center; 
+    gap:10px;
+    flex-wrap: wrap ;
+    padding-right: 15px;
+  }
+  .fa.fa-instagram{
+    color:white;
+    font-size: 25px;
+     text-decoration: none;
+  }
+  a.fa.fa-instagram:hover{
+    color:#f778c2;
+  }
+  
+  .fa.fa-twitter{
+    color:white;
+    font-size: 25px;
+     text-decoration: none;
+  }
+  a.fa.fa-twitter:hover{
+    color:#f778c2;
+  }
+  .fa.fa-pinterest{
+    color:white;
+    font-size: 25px;
+     text-decoration: none;
+  }
+  a.fa.fa-pinterest:hover{
+    color:#f778c2;
+  }
+  a.white{
+    color:white;
+    text-decoration: none;
+  }
+  a.white:hover{
+    color:#f778c2;
+  }
+  li > a.nav-link:hover{
+    color:#f778c2;
+  }
+  .smallinput{
+    height:37px;
+    width: 70px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    padding-top:5px ;
+  }
+  .dollar{
+    height:70px;
+    width: 135px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family:  Arial, Helvetica, sans-serif;
+  }
+  .dollar:hover{
+    background-color: #dbdbdb ;
+  }
+  .dollar1{
+    height:70px;
+    width: 135px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family:  Arial, Helvetica, sans-serif;
+  }
+  .dollar1:hover{
+    background-color: #dbdbdb ;
+  }
+  .menu-btn{
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.5em;
+      color: #fff;
+      display: none;
+  }
+
+  
+  @media screen and (max-width: 1000px){
+      .menu-btn{
+          display: block;
+      }
+      .nav {
+          background: black;
+          position: absolute;
+          left: 0;
+          top: 3em;
+          width: 100%;
+          height: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          opacity: 0.6s;
+          overflow: hidden;
+          z-index: 9;
+      }
+  
+       .menu-open{
+          opacity: 1;
+          height: 20em;
+          overflow: visible;
+      }
+       .nav li{
+          margin: .5em 0;
+      }
+  /*     #intro-example{
+        height: 300px;
+      } */
+  }
+  @media screen and (max-width: 770px){
+    .row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 0 auto;
+      padding: 0px;
+      
+    }
+    .flex3{
+       display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 13px;
+    }
+    .flex6{
+     justify-content: center;
+    }
+    .flex4 img{
+      padding-left: 80px;
+      padding-right: 85px;
+      width: 70px;
+      height: 90px;
+      justify-content: center;
+    }
+    .col-md-3 {
+    float: none;
+    display: inline-block;
+    text-align: center; 
+  }
+    textarea{
+      width: 100%;
+    }
+    .mask{
+        height: 400px;
+    }
+    .bg-image{
+        height: 400px;
+        width:100%;
+      }
+
+      .dollar{
+        width: 85px;
+        height: 50px;
+      }
+      .dollar1{
+        width: 85px;
+        height: 50px;
+      }
+  }
